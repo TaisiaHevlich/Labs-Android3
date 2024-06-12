@@ -1,0 +1,16 @@
+<TextView
+    android:id="@+id/textViewMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Main Activity"
+    android:textColor="#FFFFFF"
+    android:textSize="24sp"
+    android:layout_centerInParent="true"/>
+
+<Button
+android:id="@+id/buttonToSecond"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Go to Second Activity"
+android:layout_below="@id/textViewMain"
+android:layout_centerHorizontal="true"/>
